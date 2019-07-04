@@ -1,0 +1,11 @@
+nin=input()
+z=list(nin)
+u=len(nin)
+s=""
+if((r%2)==0):
+   z[int(u/2)]="*"
+   z[int(u/2)-1]="*"
+else:
+   z[int(u/2)]="*"
+s=s.join(z)
+print(s)
